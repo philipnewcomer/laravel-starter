@@ -17,6 +17,7 @@
         "barryvdh/laravel-debugbar": "^3.14",
         "barryvdh/laravel-ide-helper": "^3.1",
         "fakerphp/faker": "^1.23",
+        "friendsofphp/php-cs-fixer": "^3.64",
         "larastan/larastan": "^2.0",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
@@ -38,6 +39,7 @@
     },
     "scripts": {
         "analyse": "vendor/bin/phpstan analyse",
+        "fix": "vendor/bin/php-cs-fixer fix app",
         "format": "npx prettier --write .",
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
