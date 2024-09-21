@@ -1,0 +1,12 @@
+{
+    "phpVersion": "8.2",
+    "plugins": ["@prettier/plugin-php"],
+    "overrides": [
+        {
+            "files": "*.php",
+            "options": {
+                "singleQuote": true
+            }
+        }
+    ]
+}

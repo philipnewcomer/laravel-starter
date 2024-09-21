@@ -1,0 +1,6 @@
+/artisan
+/composer.lock
+/config/*
+/public/index.php
+/README.md
+/storage/*
