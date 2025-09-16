@@ -4,6 +4,7 @@
 - Add PHPStan via Larastan
 - Add Prettier and reformat files
 - Add PHP CS Fixer
+- Delete CHANGELOG.md and README.md, add Laravel-Starter-Changes.md
 
 ### PHPStorm Project Configuration
 
